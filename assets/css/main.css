@@ -204,12 +204,15 @@ input[type=number]::-webkit-outer-spin-button {
 
 body {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   background: #FEAC5E;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  margin: 0;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed !important;
   overflow-x: hidden;
   overflow-y: auto;
 }
