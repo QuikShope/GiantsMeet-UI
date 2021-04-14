@@ -7,7 +7,7 @@
 .signupForm{
     @include glass;
     height: 70vh;
-    width: 60%;
+    width: 80%;
     display: flex;
     align-items: center;
     // justify-content: center;
@@ -65,8 +65,6 @@
     }
 
 }
-
-
 
 .socialMediaLoginBar{
     width: 100%;

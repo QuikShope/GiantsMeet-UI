@@ -33,7 +33,7 @@ input[type=number]::-webkit-outer-spin-button {
   display: flex;
   flex-direction: row;
   align-items: baseline;
-  z-index: 3;
+  z-index: 2;
 }
 
 .logo h1 {
@@ -64,7 +64,7 @@ input[type=number]::-webkit-outer-spin-button {
   border-radius: 15px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   height: 70vh;
-  width: 60%;
+  width: 80%;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -192,5 +192,10 @@ body {
   background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   overflow: hidden;
+}
+
+.mainBody {
+  width: 100vw;
+  height: 100vh;
 }
 /*# sourceMappingURL=main.css.map */
