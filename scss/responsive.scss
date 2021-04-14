@@ -28,8 +28,11 @@
         .socialBtnList{
             width: 80%;
             flex-direction: column;
-            flex-wrap: wrap;
-            gap: 20px;
+            // flex-wrap: wrap;
+            // gap: 20px;
+            & > *:first-child {
+                margin-bottom: 20px;
+            }
         }
         .socialBtnGroup{
             width: 100%;
