@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playball&display=swap");
+* {
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #FEAC5E;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  overflow: hidden;
+}
+
+.signupFormWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signupForm {
+  background: rgba(253, 253, 255, 0.35);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  height: 70vh;
+  width: 60%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+}
+
+.signupForm h1, .signupForm h4 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  opacity: .9;
+  text-shadow: 4px 4px rgba(207, 195, 195, 0.698);
+}
+
+.signupForm h1 {
+  font-size: 3.5rem;
+}
+
+.form-group-new {
+  background: rgba(253, 253, 255, 0.35);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  height: 60px;
+  overflow: hidden;
+  box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.25);
+  background: white;
+  margin-top: 7rem;
+  margin-bottom: 3rem;
+}
+
+.form-group-new input {
+  opacity: .75;
+  width: 80%;
+  height: 100%;
+  padding: 10px;
+  font-size: 1.3rem;
+}
+
+.form-group-new input:before {
+  content: "+91";
+}
+
+.form-group-new Button {
+  background: rgba(253, 253, 255, 0.35);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  width: 20%;
+  font-size: 1.5rem;
+  font-weight: 700;
+  box-shadow: 0px;
+  color: white;
+  background-color: orange;
+}
+
+.form-group-new Button:hover {
+  background-color: #4BC0C8;
+  transition: .2s;
+}
+
+.socialMediaLoginBar {
+  width: 100%;
+  margin: auto;
+  margin-top: 0px;
+  align-items: center;
+}
+
+.socialMediaLoginBar h4 {
+  margin-bottom: 2rem;
+}
+
+.socialMediaLoginBar .socialBtnList {
+  margin: 0 auto;
+  width: 75%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.socialMediaLoginBar .socialBtn {
+  background: rgba(253, 253, 255, 0.35);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(50px);
+  -webkit-backdrop-filter: blur(50px);
+  border-radius: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  margin: auto;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.signinBtn {
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin-top: 1.5rem;
+  margin-bottom: auto;
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+.logo {
+  text-align: start;
+  top: 25;
+  left: 25;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  z-index: 3;
+}
+
+.logo h1 {
+  font-family: 'Playball', cursive;
+  color: white;
+  font-size: 3.5rem !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.logo span {
+  color: white;
+  font-size: 1.2rem !important;
+  font-weight: bold;
+}
+
+.MainCarouselWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.MainCarousel {
+  width: 100vw;
+  height: auto;
+}
+/*# sourceMappingURL=main.css.map */
