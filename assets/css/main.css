@@ -214,34 +214,4 @@ body {
   width: 100vw;
   flex: 1 auto;
 }
-
-@media only screen and (max-width: 1200px) {
-  .signupForm {
-    width: 85%;
-  }
-  .logo {
-    top: 6;
-  }
-  .logo h1 {
-    font-size: 2.5em !important;
-  }
-}
-
-@media only screen and (max-width: 576px) {
-  .signupForm {
-    width: 95%;
-  }
-  .signupForm h1 {
-    font-size: 2.5em;
-  }
-  .socialMediaLoginBar .socialBtnList {
-    width: 80%;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 20px;
-  }
-  .socialMediaLoginBar .socialBtnGroup {
-    width: 100%;
-  }
-}
 /*# sourceMappingURL=main.css.map */

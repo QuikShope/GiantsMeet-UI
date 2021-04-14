@@ -21,37 +21,3 @@ body{
     // height: 100%;
     flex: 1 auto;
 }
-
-@media only screen and (max-width : 1200px) {
-    .signupForm{
-        width: 85%;
-    }
-    .logo{
-        top: 6;
-
-        h1{
-            font-size: 2.5em!important;
-        }
-    }
-}
-@media only screen and (max-width : 576px) {
-    .signupForm{
-        width: 95%;
-
-        h1{
-            font-size: 2.5em;
-        }
-    }
-    .socialMediaLoginBar{
-        .socialBtnList{
-            width: 80%;
-            flex-direction: column;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-        .socialBtnGroup{
-            width: 100%;
-        }
-    }
-
-}
