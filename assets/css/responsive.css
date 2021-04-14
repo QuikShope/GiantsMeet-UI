@@ -33,5 +33,11 @@
   .socialMediaLoginBar .socialBtnGroup {
     width: 100%;
   }
+  .form-group-new input {
+    width: 75%;
+  }
+  .form-group-new Button {
+    width: 25%;
+  }
 }
 /*# sourceMappingURL=responsive.css.map */
