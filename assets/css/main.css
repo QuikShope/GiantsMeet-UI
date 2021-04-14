@@ -45,14 +45,14 @@ input[type=number]::-webkit-outer-spin-button {
 .logo h1 {
   font-family: 'Playball', cursive;
   color: white;
-  font-size: 3.5rem !important;
+  font-size: 3.5em !important;
   padding: 0 !important;
   margin: 0 !important;
 }
 
 .logo span {
   color: white;
-  font-size: 1.2rem !important;
+  font-size: 1.2em !important;
   font-weight: bold;
 }
 
@@ -71,11 +71,11 @@ input[type=number]::-webkit-outer-spin-button {
   border-radius: 15px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   height: auto;
-  width: 80%;
+  width: 70%;
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding-top: 2rem;
+  padding-top: 2em;
 }
 
 .signupForm h1, .signupForm h4 {
@@ -86,7 +86,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .signupForm h1 {
-  font-size: 3.5rem;
+  font-size: 3.5em;
 }
 
 .form-group-new {
@@ -103,8 +103,9 @@ input[type=number]::-webkit-outer-spin-button {
   overflow: hidden;
   box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.25);
   background: white;
-  margin-top: 7rem;
-  margin-bottom: 3rem;
+  margin-top: auto;
+  margin-top: 8vh;
+  margin-bottom: 3em;
 }
 
 .form-group-new input {
@@ -112,7 +113,7 @@ input[type=number]::-webkit-outer-spin-button {
   width: 71%;
   height: 100%;
   padding: 10px;
-  font-size: 1.3rem;
+  font-size: 1.3em;
 }
 
 .form-group-new input:before {
@@ -127,7 +128,7 @@ input[type=number]::-webkit-outer-spin-button {
   border-radius: 15px;
   border: 1px solid rgba(255, 255, 255, 0.18);
   width: 29%;
-  font-size: 1.5rem;
+  font-size: 1.5em;
   font-weight: 700;
   box-shadow: 0px;
   color: white;
@@ -147,7 +148,7 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .socialMediaLoginBar h4 {
-  margin-bottom: 2rem;
+  margin-bottom: 2em;
 }
 
 .socialMediaLoginBar .socialBtnList {
@@ -178,9 +179,9 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 .signinBtn {
-  font-size: 1.5rem;
+  font-size: 2em;
   cursor: pointer;
-  margin-top: 1.5rem;
+  margin-top: 1.5em;
   margin-bottom: auto;
   font-family: 'Poppins', sans-serif;
   color: white;
@@ -215,11 +216,14 @@ body {
 }
 
 @media only screen and (max-width: 1200px) {
+  .signupForm {
+    width: 85%;
+  }
   .logo {
     top: 6;
   }
   .logo h1 {
-    font-size: 2.5rem !important;
+    font-size: 2.5em !important;
   }
 }
 
@@ -228,7 +232,7 @@ body {
     width: 95%;
   }
   .signupForm h1 {
-    font-size: 2.5rem;
+    font-size: 2.5em;
   }
   .socialMediaLoginBar .socialBtnList {
     width: 80%;
